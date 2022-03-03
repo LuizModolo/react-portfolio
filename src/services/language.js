@@ -44,14 +44,6 @@ const language = {
       english: "Skills, tools and technologies that I have developed so far in my journey as a dev:",
       portuguese: "Habilidades e tecnologias que desenvolvi até agora na minha caminhada como desenvolvedor:"
     },
-    type1: {
-      english: "Code",
-      portuguese: "Código"
-    },
-    type2: {
-      english: "General",
-      portuguese: "Gerais"
-    },
   },
   projects: {
     title: {
@@ -61,6 +53,10 @@ const language = {
     text: {
       english: "Here are some projects I've developed recently!",
       portuguese: "Abaixo alguns projetos que desenvolvi recentemente!"
+    },
+    button: {
+      english: "Show More",
+      portuguese: "Mais projetos"
     },
   },
   footer: {

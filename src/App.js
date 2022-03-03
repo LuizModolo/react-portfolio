@@ -1,15 +1,16 @@
 import './App.css';
-import { Header, Footer, Myprojects, Principal, Competencies, About } from './components'
+import { Header, Footer, Myprojects, 
+  Principal, Competencies, About } from './components'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Principal />
+      {/* <Principal />
       <About />
       <Competencies />
       <Myprojects />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

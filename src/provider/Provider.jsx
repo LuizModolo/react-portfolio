@@ -3,11 +3,14 @@ import PropTypes from 'prop-types';
 import Context from '../context/Context';
 
 function Provider({ children }) {
-  const [test, setTest] = useState([]);
+  const [language, setLanguage] = useState('english');
+  const [checked, setChecked] = useState(true);
 
   const ContextObj = {
-    test,
-    setTest,
+    language,
+    setLanguage,
+    checked,
+    setChecked,
   };
 
   return (
