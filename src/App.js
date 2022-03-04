@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <Header />
       <Principal />
-      {/* <About />
+      <About />
       <Competencies />
-      <Myprojects />
+      {/* <Myprojects />
       <Footer /> */}
     </div>
   );

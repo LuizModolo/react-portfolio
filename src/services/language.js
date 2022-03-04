@@ -1,7 +1,21 @@
 const language = {
   header: {
-    english: ["About", "Skills", "Projects", "Contact"],
-    portuguese: ["Sobre", "Habilidades", "Projetos", "Contato"]
+    About: {
+      english: "About",
+      portuguese: "Sobre",
+    },
+    Skills: {
+      english: "Skills",
+      portuguese: "Habilidades",
+    },
+    Projects: {
+      english: "Projects",
+      portuguese: "Projetos",
+    },
+    Contact: {
+      english: "Contact",
+      portuguese: "Contato",
+    },
   },
   principal: {
     part1: {
