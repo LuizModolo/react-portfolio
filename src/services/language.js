@@ -17,10 +17,14 @@ const language = {
       portuguese: " {"
     },
     part2: {
-      english: "Hello! I'm Luiz Módolo. Web developer.",
-      portuguese: "Olá! Eu sou o Luiz Módolo. Desenvolvedor Web."
+      english: "Hello! I'm Luiz Módolo.",
+      portuguese: "Olá! Eu sou o Luiz Módolo."
     },
     part3: {
+      english: "Web developer.",
+      portuguese: "Desenvolvedor Web."
+    },
+    part4: {
       english: "}",
       portuguese: "}"
     }

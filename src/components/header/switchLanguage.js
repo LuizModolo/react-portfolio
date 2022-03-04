@@ -26,7 +26,7 @@ export default function Header() {
   const GbFlag = () => <CircleFlag countryCode="gb" height="26" />
 
   return (
-    <div className="basis-1/12 flex justify-end pr-16">
+    <div className="flex justify-end pl-10">
       <Switch
         checked={checked}
         onChange={handleLanguage}

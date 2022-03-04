@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Principal />
-      <About />
+      <Principal />
+      {/* <About />
       <Competencies />
       <Myprojects />
       <Footer /> */}
