@@ -13,6 +13,24 @@ module.exports = {
       'light-grey': '#e5e5e5',
       'white': '#ffffff',
     },
+    screens: {
+      'ssm': '430px',
+      // => @media (min-width: 430px) { ... }
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
@@ -22,6 +40,9 @@ module.exports = {
         'brush-dark-b': "url('./images/bg-brush-b.png')",
         'brush-blue-t': "url('./images/bg-brush-blue-t.png')",
         'brush-blue-b': "url('./images/bg-brush-blue-b.png')",
+        'brush-orange': "url('./images/bg-brush-org-b.png')",
+        'brush-yellow': "url('./images/bg-brush-yellow-t.png')",
+        'btn-bg': "url('./images/btnBg2.png')",
       }
     },
   },

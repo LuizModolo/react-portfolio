@@ -14,10 +14,10 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="shadow-md w-full fixed top-0 left-0">
+    <header className="w-screen sticky top-0 left-0">
       <div className='lg:flex items-center justify-between bg-orange py-4 lg:px-10 px-7'>
         <div className='cursor-pointer'>
-          <h1 className="text-dark-blue basis-4/12 font-semibold text-2xl pl-6 lg:pl-24">{'<Luiz Módolo />'}</h1>
+          <a href='#home' className='text-dark-blue basis-4/12 font-semibold text-2xl pl-6 lg:pl-24'>{'<Luiz Módolo />'}</a>
         </div>
         <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-4 cursor-pointer lg:hidden'>
           {open ? <IoClose /> : <HiMenu /> }

@@ -1,6 +1,6 @@
 import './App.css';
 import { Header, Footer, Myprojects, 
-  Principal, Competencies, About } from './components'
+  Principal, Competencies, About, Contact } from './components'
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
       <Principal />
       <About />
       <Competencies />
-      {/* <Myprojects />
+      <Myprojects />
+      {/* <Contact />
       <Footer /> */}
     </div>
   );
