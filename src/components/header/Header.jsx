@@ -14,7 +14,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-screen sticky top-0 left-0">
+    <header className="shadow-xl shadow-black w-screen sticky z-10 top-0 left-0">
       <div className='lg:flex items-center justify-between bg-orange py-4 lg:px-10 px-7'>
         <div className='cursor-pointer'>
           <a href='#home' className='text-dark-blue basis-4/12 font-semibold text-2xl pl-6 lg:pl-24'>{'<Luiz Módolo />'}</a>

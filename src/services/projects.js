@@ -1,7 +1,11 @@
 import recipeMockup from '../images/recipeAppMockup.png';
 import triviaMockup from '../images/triviaMockup.png';
+import cryptoMockup from '../images/crypyoMockup.png';
+import onStoreMockup from '../images/onlineStoreMockup.png';
+
 //1552x970 notebook
 //448x970 iphone
+//1194x834 iphone
 
 const projects = [
   {
@@ -65,39 +69,63 @@ const projects = [
     },
   },
   {
+    img: {
+      english: cryptoMockup,
+      portuguese: cryptoMockup
+    },
     title: {
       english: "Crypto Curr",
       portuguese: "Crypto Curr"
     },
     text: {
-      english: "Start of course project, based on JS Vanilla, focused mainly on asynchronous requests.",
-      portuguese: "Projeto de início de curso, com base em JS Vanilla, focando principalmente em requisições assíncronas."
+      english: "Start of course project, based on JS Vanilla, focused mainly on asynchronous requests, frameworks and unit tests.",
+      portuguese: "Projeto de início de curso, com base em JS Vanilla, focando principalmente em requisições assíncronas, utilização de bibliotecas e testes unitários."
     },
     buttonDeployName: {
       english: "Project",
       portuguese: "Projeto"
     },
+    buttonDeployUrl: {
+      english: "https://crypto-curr.luizmodolo.dev",
+      portuguese: "https://crypto-curr.luizmodolo.dev"
+    },
     buttonGithubName: {
       english: "Code",
       portuguese: "Código"
     },
+    buttonGithubUrl: {
+      english: "https://github.com/LuizModolo/crypto_curr",
+      portuguese: "https://github.com/LuizModolo/crypto_curr"
+    },
   },
   {
+    img: {
+      english: onStoreMockup,
+      portuguese: onStoreMockup
+    },
     title: {
       english: "FrontEnd Online Store",
       portuguese: "FrontEnd Online Store"
     },
     text: {
-      english: "App made in React with scope developed to improve components lifecycle, React Router and states.",
-      portuguese: "App feito em React com escopo desenvolvido para treinar ciclo de vida de componentes, React Router e estados."
+      english: "App made in React, using 'Mercado Libre API', with scope developed to improve components lifecycle, React Router and states.",
+      portuguese: "App feito em React, utilizando API do Mercado Livre, com escopo desenvolvido para treinar ciclo de vida de componentes, React Router e estados."
     },
     buttonDeployName: {
       english: "Project",
       portuguese: "Projeto"
     },
+    buttonDeployUrl: {
+      english: "https://online-store.luizmodolo.dev",
+      portuguese: "https://online-store.luizmodolo.dev"
+    },
     buttonGithubName: {
       english: "Code",
       portuguese: "Código"
+    },
+    buttonGithubUrl: {
+      english: "https://github.com/LuizModolo/frontend-online-store",
+      portuguese: "https://github.com/LuizModolo/frontend-online-store"
     },
   },
   {
@@ -120,8 +148,8 @@ const projects = [
   },
   {
     title: {
-      english: "Trybe Tunes",
-      portuguese: "Trybe Tunes"
+      english: "Card Game",
+      portuguese: "Card Game"
     },
     text: {
       english: "First application developed in React put into action concepts of states, events and forms.",

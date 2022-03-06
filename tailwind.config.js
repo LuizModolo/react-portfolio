@@ -43,6 +43,7 @@ module.exports = {
         'brush-orange': "url('./images/bg-brush-org-b.png')",
         'brush-yellow': "url('./images/bg-brush-yellow-t.png')",
         'btn-bg': "url('./images/btnBg2.png')",
+        'btn-bg-org': "url('./images/btnBgOrange.png')",
       }
     },
   },
