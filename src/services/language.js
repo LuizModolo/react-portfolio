@@ -90,6 +90,10 @@ const language = {
       english: "Leave your message and check out my networks below. I would love to get in touch with you!",
       portuguese: "Deixe seu recado e confira minhas redes. Vou adorar entrar em contato com você! "
     },
+    back: {
+      english: "Back to top",
+      portuguese: "Voltar ao topo"
+    },
     forms: {
       name: {
         english: "Full Name",

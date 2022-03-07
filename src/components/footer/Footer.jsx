@@ -9,9 +9,9 @@ export default function Footer() {
   } = useContext(Context);
 
   return (
-    <footer className='w-screen bg-yellow flex justify-items-center items-center text-center pb-4 -mt-5'>
-        <p><BiCopyright /></p>
-        <h1 className='text-blue font-normal text-base ml-2'>{Language.footer.text[language]}</h1>
+    <footer className='flex items-center justify-center bg-yellow pb-4 -mt-5'>
+      <p><BiCopyright /></p>
+      <h1 className='text-blue font-normal text-xs md:text-base ml-2'>{Language.footer.text[language]}</h1>
     </footer>
   )
 }
