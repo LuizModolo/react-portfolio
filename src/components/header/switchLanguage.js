@@ -5,19 +5,19 @@ import { CircleFlag } from 'react-circle-flags'
 
 export default function Header() {
   const {
-    language,
-    setLanguage,
+    idiom,
+    setIdiom,
     checked,
     setChecked
   } = useContext(Context);
 
   const handleLanguage = () => {
-    if (language === 'english') {
-      setLanguage('portuguese')
+    if (idiom === 'english') {
+      setIdiom('portuguese')
       setChecked(false)
     }
-    if (language === 'portuguese') {
-      setLanguage('english')
+    if (idiom === 'portuguese') {
+      setIdiom('english')
       setChecked(true)
     }
   }

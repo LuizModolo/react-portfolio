@@ -1,12 +1,12 @@
 import { useContext, useState } from 'react';
 import Context from '../../context/Context';
-import Language from '../../services/Language'
+import language from '../../services/language'
 import Lottie from 'react-lottie';
 import animationData from '../../services/animationData.json'
  
 export default function Principal() {
   const {
-    language,
+    idiom,
   } = useContext(Context);
   const [animationState] = useState({
     isStopped: false, isPaused: false
@@ -26,13 +26,13 @@ export default function Principal() {
       <section className='flex flex-col justify-items-center items-center pt-40 lg:h-screen lg:pt-0 lg:flex-row lg:justify-items-center'>
         <section className='flex flex-col text-2xl ssm:text-3xl sm:text-5xl lg:text-4xl xl:text-5xl lg:ml-24 xl:ml-32 lg:pr-10 lg:basis-1/2'>
           <div className='flex flex-row mb-4'>
-            <h2 className='text-white font-medium'>{Language.principal.part1[language]}</h2>
-            <span className='text-yellow ml-4 font-medium'>{Language.principal.span1[language]}</span>
-            <span className='text-orange ml-3 font-medium'>{Language.principal.span2[language]}</span>
+            <h2 className='text-white font-medium'>{language.principal.part1[idiom]}</h2>
+            <span className='text-yellow ml-4 font-medium'>{language.principal.span1[idiom]}</span>
+            <span className='text-orange ml-3 font-medium'>{language.principal.span2[idiom]}</span>
           </div>
-          <h1 className='text-white ml-10 mb-4 font-medium'>{Language.principal.part2[language]}</h1>
-          <h1 className='text-white ml-10 mb-4 font-medium'>{Language.principal.part3[language]}</h1>
-          <h2 className='text-yellow font-medium'>{Language.principal.part4[language]}</h2>
+          <h1 className='text-white ml-10 mb-4 font-medium'>{language.principal.part2[idiom]}</h1>
+          <h1 className='text-white ml-10 mb-4 font-medium'>{language.principal.part3[idiom]}</h1>
+          <h2 className='text-yellow font-medium'>{language.principal.part4[idiom]}</h2>
         </section>
         <section className='lg:basis-1/2'>
           <div className='mb-20 pointer-events-none lg:mb-28 lg:-ml-40'>
