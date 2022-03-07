@@ -130,7 +130,7 @@ export default function Myprojects() {
                       {s.title[idiom]}
                     </h1>
                     <img 
-                      className='sm:row-start-1 sm:row-end-4 sm:col-start-4 sm:lg:col-start-5 sm:col-end-7 sm:place-self-center w-10/12  lg:ml-12 2xl:ml-0'
+                      className='sm:row-start-1 sm:row-end-4 sm:col-start-4 sm:lg:col-start-5 sm:col-end-7 sm:place-self-center w-10/12 lg:ml-12 2xl:ml-0'
                       src={s.img[idiom]}
                       alt={`Project ${s.title[idiom]} mockup`}
                     />
