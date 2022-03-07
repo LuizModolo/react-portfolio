@@ -10,8 +10,8 @@ function App() {
       <About />
       <Competencies />
       <Myprojects />
-      {/* <Contact />
-      <Footer /> */}
+      <Contact />
+      <Footer />
     </div>
   );
 }

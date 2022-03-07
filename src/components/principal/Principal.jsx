@@ -27,8 +27,8 @@ export default function Principal() {
         <section className='flex flex-col text-2xl ssm:text-3xl sm:text-5xl lg:text-4xl xl:text-5xl lg:ml-24 xl:ml-32 lg:pr-10 lg:basis-1/2'>
           <div className='flex flex-row mb-4'>
             <h2 className='text-white font-medium'>{Language.principal.part1[language]}</h2>
-            <span className='text-orange ml-4 font-medium'>{Language.principal.span1[language]}</span>
-            <span className='text-yellow ml-3 font-medium'>{Language.principal.span2[language]}</span>
+            <span className='text-yellow ml-4 font-medium'>{Language.principal.span1[language]}</span>
+            <span className='text-orange ml-3 font-medium'>{Language.principal.span2[language]}</span>
           </div>
           <h1 className='text-white ml-10 mb-4 font-medium'>{Language.principal.part2[language]}</h1>
           <h1 className='text-white ml-10 mb-4 font-medium'>{Language.principal.part3[language]}</h1>

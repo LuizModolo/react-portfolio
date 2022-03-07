@@ -2,10 +2,12 @@ import recipeMockup from '../images/recipeAppMockup.png';
 import triviaMockup from '../images/triviaMockup.png';
 import cryptoMockup from '../images/crypyoMockup.png';
 import onStoreMockup from '../images/onlineStoreMockup.png';
+import tunesMockup from '../images/tunesMockup.png';
+import cardGameMockup from '../images/cardGameMockup.png';
 
 //1552x970 notebook
 //448x970 iphone
-//1194x834 iphone
+//1194x834 ipad
 
 const projects = [
   {
@@ -129,6 +131,10 @@ const projects = [
     },
   },
   {
+    img: {
+      english: tunesMockup,
+      portuguese: tunesMockup
+    },
     title: {
       english: "Trybe Tunes",
       portuguese: "Trybe Tunes"
@@ -141,12 +147,24 @@ const projects = [
       english: "Project",
       portuguese: "Projeto"
     },
+    buttonDeployUrl: {
+      english: "https://tunes.luizmodolo.dev",
+      portuguese: "https://tunes.luizmodolo.dev"
+    },
     buttonGithubName: {
       english: "Code",
       portuguese: "Código"
     },
+    buttonGithubUrl: {
+      english: "https://github.com/LuizModolo/trybe-tunes-project",
+      portuguese: "https://github.com/LuizModolo/trybe-tunes-project"
+    },
   },
   {
+    img: {
+      english: cardGameMockup,
+      portuguese: cardGameMockup
+    },
     title: {
       english: "Card Game",
       portuguese: "Card Game"
@@ -159,9 +177,17 @@ const projects = [
       english: "Project",
       portuguese: "Projeto"
     },
+    buttonDeployUrl: {
+      english: "https://card-game.luizmodolo.dev",
+      portuguese: "https://card-game.luizmodolo.dev"
+    },
     buttonGithubName: {
       english: "Code",
       portuguese: "Código"
+    },
+    buttonGithubUrl: {
+      english: "https://github.com/LuizModolo/pokemon-cards",
+      portuguese: "https://github.com/LuizModolo/pokemon-cards"
     },
   },
 ]

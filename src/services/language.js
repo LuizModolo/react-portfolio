@@ -72,12 +72,16 @@ const language = {
       english: "Here are some projects I've developed recently!",
       portuguese: "Abaixo alguns projetos que desenvolvi recentemente!"
     },
-    button: {
+    button1: {
       english: "Show More",
       portuguese: "Mais projetos"
     },
+    button2: {
+      english: "Show Less",
+      portuguese: "Fechar Projetos"
+    },
   },
-  footer: {
+  contact: {
     title: {
       english: "Contact me!",
       portuguese: "Contato"
@@ -85,6 +89,38 @@ const language = {
     text: {
       english: "Leave your message and check out my networks below. I would love to get in touch with you!",
       portuguese: "Deixe seu recado e confira minhas redes. Vou adorar entrar em contato com você! "
+    },
+    forms: {
+      name: {
+        english: "Full Name",
+        portuguese: "Nome Completo"
+      },
+      email: {
+        english: "E-mail",
+        portuguese: "E-mail"
+      },
+      message: {
+        english: "Message",
+        portuguese: "Mensagem"
+      },
+      btn: {
+        english: "Submit",
+        portuguese: "Enviar"
+      },
+      alert: {
+        english: "Message sent successfully! I will be in touch soon.",
+        portuguese: "Mensagem enviada com sucesso! Em breve entrarei em contato."
+      },
+      error: {
+        english: "Sorry, we were unable to send the message to the destination.",
+        portuguese: "Desculpe, mensagem não foi enviada corretamente."
+      },
+    },
+  },
+  footer: {
+    text: {
+      english: "All rights reserved to Luiz Módolo",
+      portuguese: "Todos os direitos reservados. Luiz Módolo"
     },
   },
 }
