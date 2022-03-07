@@ -50,7 +50,7 @@ export default function Contact() {
                     <form ref={formRef} onSubmit={handleFormSubmit} className="p-6 flex flex-col justify-center">
                         <div className="flex flex-col">
                             <label 
-                              for="name"
+                              htmlFor="name"
                               className="hidden">{Language.contact.forms.name[language]}
                             </label>
                             <input 
@@ -63,7 +63,7 @@ export default function Contact() {
                         </div>
                         <div className="flex flex-col mt-2">
                             <label 
-                              for="email"
+                              htmlFor="email"
                               className="hidden">{Language.contact.forms.email[language]}
                             </label>
                             <input
@@ -76,7 +76,7 @@ export default function Contact() {
                         </div>
                         <div className="flex flex-col mt-2">
                             <label 
-                              for="message"
+                              htmlFor="message"
                               className="hidden">{Language.contact.forms.message[language]}
                             </label>
                             <textarea 
@@ -95,21 +95,21 @@ export default function Contact() {
                         </button>
                     </form>
                     <div className="place-self-center md:mb-12 sm:rounded-lg">
-                        <div class="flex items-center justify-center md:justify-start mt-8 text-white">
+                        <div className="flex items-center justify-center md:justify-start mt-8 text-white">
                           <a 
                             href='https://www.linkedin.com/in/luizfcmodolo/'
                             className='flex items-center text-md tracking-wide font-semibold text-light-grey hover:text-orange'>
                             <SiLinkedin className='text-3xl mr-4' /> /luizfcmodolo
                           </a>
                         </div>
-                        <div class="flex items-center justify-center md:justify-start mt-8 text-white">
+                        <div className="flex items-center justify-center md:justify-start mt-8 text-white">
                           <a 
                             href='https://github.com/LuizModolo'
                             className='flex items-center text-md tracking-wide font-semibold text-light-grey hover:text-orange'>
                             <SiGithub className='text-3xl mr-4' /> /LuizModolo
                           </a>
                         </div>
-                        <div class="flex items-center justify-center md:justify-start mt-8 text-white">
+                        <div className="flex items-center justify-center md:justify-start mt-8 text-white">
                           <a 
                             href='https://www.linkedin.com/in/luizfcmodolo/'
                             className='flex items-center text-md tracking-wide font-semibold text-light-grey hover:text-orange'>

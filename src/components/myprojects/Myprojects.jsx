@@ -155,7 +155,7 @@ export default function Myprojects() {
                   )
                 }
               }
-              return <div/>
+              return <div key={i}/>
             })}
         </div>
         { showMore
