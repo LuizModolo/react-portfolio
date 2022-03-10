@@ -3,6 +3,8 @@ import Context from '../../context/Context';
 import language from '../../services/language'
 import Lottie from 'react-lottie';
 import animationData from '../../services/animationData.json'
+import { BsChevronDoubleDown } from "react-icons/bs";
+import { BiMouse } from "react-icons/bi";
  
 export default function Principal() {
   const {
@@ -32,7 +34,7 @@ export default function Principal() {
           </div>
           <h1 className='text-white ml-10 mb-4 font-medium'>{language.principal.part2[idiom]}</h1>
           <h1 className='text-white ml-10 mb-4 font-medium'>{language.principal.part3[idiom]}</h1>
-          <h2 className='text-yellow font-medium'>{language.principal.part4[idiom]}</h2>
+          <h2 className='text-orange font-medium'>{language.principal.part4[idiom]}</h2>
         </section>
         <section className='lg:basis-1/2'>
           <div className='mb-20 pointer-events-none lg:mb-28 lg:-ml-40'>
@@ -46,6 +48,10 @@ export default function Principal() {
           </div>
         </section>
       </section>
+      <div className='flex flex-col items-center slide-bottom bottom-0 absolute sm:hidden lg:flex mb-14'>
+          <BiMouse className='text-2xl lg:text-3xl text-light-grey font-medium' />
+          <BsChevronDoubleDown className='text-4xl lg:text-5xl text-light-grey font-medium' />
+      </div>
       <div className='bg-brush-dark-t min-w-full min-h-[80px]'/>
     </main>
   )

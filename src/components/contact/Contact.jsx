@@ -41,12 +41,12 @@ export default function Contact() {
   return (
     <section id='contact' className='w-screen bg-blue flex flex-col justify-items-center items-center'>
       <div className='flex w-10/12 flex-col text-center justify-center items-center lg:w-8/12'>
-        <h1 className='text-yellow mt-16 font-medium text-3xl sm:text-4xl lg:mt-20'>{language.contact.title[idiom]}</h1>
-        <p className='text-grey font-poppins mt-6 font-normal text-lg sm:text-xl lg:mt-8'>{language.contact.text[idiom]}</p>
+        <h1 data-aos="fade-up" className='text-yellow mt-16 font-medium text-3xl sm:text-4xl lg:mt-20'>{language.contact.title[idiom]}</h1>
+        <p data-aos="fade-up" className='text-grey font-poppins mt-6 font-normal text-lg sm:text-xl lg:mt-8'>{language.contact.text[idiom]}</p>
         <div className='w-10/12 flex justify-center items-center'>
           <div className="relative flex items-top justify-center mb-16 min-w-full min-h-fit sm:items-center sm:pt-0">
             <div className="mt-8 overflow-hidden min-w-full">
-                <div className="grid grid-cols-1 md:grid-cols-2">
+                <div data-aos="zoom-in" className="grid grid-cols-1 md:grid-cols-2">
                     <form ref={formRef} onSubmit={handleFormSubmit} className="p-6 flex flex-col justify-center">
                         <div className="flex flex-col">
                             <label 
@@ -125,6 +125,7 @@ export default function Contact() {
       <div>
         <a 
           href='#home'
+          data-aos="zoom-in"
           className='flex flex-col items-center text-lg lg:text-xl tracking-wide font-medium text-light-grey hover:text-yellow mb-10 md:mb-12'>
           <BsChevronDoubleUp className='text-5xl' />{language.contact.back[idiom]}
         </a>

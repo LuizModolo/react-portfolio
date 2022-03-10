@@ -13,8 +13,39 @@
   --white: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--dark-blue);
   margin: 0;
   padding: 0;
+};
+
+.slide-bottom {
+	-webkit-animation: slide-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s infinite both;
+	        animation: slide-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s infinite both;
+};
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+};
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
 };
