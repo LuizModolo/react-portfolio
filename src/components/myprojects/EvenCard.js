@@ -27,12 +27,16 @@ export default function EvenCard({s}) {
       <div 
         className='sm:col-span-3 lg:col-span-4 sm:w-full h-full flex justify-items-center sm:justify-items-start items-center my-2.5 sm:my-0'>
         <a 
-          href={s.buttonDeployUrl[idiom]} 
+          href={s.buttonDeployUrl[idiom]}
+          target="_blank"
+          rel="noreferrer"
           className='bg-btn-bg hover:bg-btn-bg-org bg-center bg-cover text-blue font-semibold text-lg lg:text-xl w-32 h-12 sm:w-28 lg:w-36 sm:h-10 lg:h-14 pt-2 sm:pt-1.5 lg:pt-3.5'>
           {s.buttonDeployName[idiom]}
         </a>
         <a 
           href={s.buttonGithubUrl[idiom]}
+          target="_blank"
+          rel="noreferrer"
           className='bg-btn-bg hover:bg-btn-bg-org bg-center bg-cover text-blue font-semibold text-lg lg:text-xl w-32 h-12 sm:w-28 lg:w-36 sm:h-10 lg:h-14 pt-2 sm:pt-1.5 lg:pt-3.5'>
           {s.buttonGithubName[idiom]}
         </a>
