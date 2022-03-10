@@ -132,7 +132,7 @@ export default function Contact() {
         <a 
           href='#home'
           data-aos="zoom-in"
-          className='flex flex-col items-center text-lg lg:text-xl tracking-wide font-medium text-light-grey hover:text-yellow mb-10 md:mb-12'>
+          className='flex flex-col items-center text-base lg:text-lg tracking-wide font-medium text-light-grey hover:text-yellow mb-10 md:mb-12'>
           <BsChevronDoubleUp className='text-5xl' />{language.contact.back[idiom]}
         </a>
       </div>
