@@ -6,7 +6,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { BsChevronDoubleUp } from "react-icons/bs";
- 
+
 export default function Contact() {
   const {
     idiom,
@@ -98,6 +98,8 @@ export default function Contact() {
                         <div className="flex items-center justify-center md:justify-start mt-8 text-white">
                           <a 
                             href='https://www.linkedin.com/in/luizfcmodolo/'
+                            target="_blank"
+                            rel="noreferrer"
                             className='flex items-center text-md tracking-wide font-semibold text-light-grey hover:text-orange'>
                             <SiLinkedin className='text-3xl mr-4' /> /luizfcmodolo
                           </a>
@@ -105,13 +107,17 @@ export default function Contact() {
                         <div className="flex items-center justify-center md:justify-start mt-8 text-white">
                           <a 
                             href='https://github.com/LuizModolo'
+                            target="_blank"
+                            rel="noreferrer"
                             className='flex items-center text-md tracking-wide font-semibold text-light-grey hover:text-orange'>
                             <SiGithub className='text-3xl mr-4' /> /LuizModolo
                           </a>
                         </div>
                         <div className="flex items-center justify-center md:justify-start mt-8 text-white">
                           <a 
-                            href='https://www.linkedin.com/in/luizfcmodolo/'
+                            href='mailto:modolo.luiz@gmail.com?'
+                            target="_blank"
+                            rel="noreferrer"
                             className='flex items-center text-md tracking-wide font-semibold text-light-grey hover:text-orange'>
                             <HiOutlineMail className='text-3xl mr-4' /> modolo.luiz@gmail.com
                           </a>
