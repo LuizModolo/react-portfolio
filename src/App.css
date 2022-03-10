@@ -21,6 +21,7 @@ body {
   background-color: var(--dark-blue);
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 };
 
 .slide-bottom {
