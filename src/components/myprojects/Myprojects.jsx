@@ -26,21 +26,21 @@ export default function Myprojects() {
         </div>
         { showMore
         ?
-          <h3
+          <div
             onClick={() => setShowMore(!showMore)}
-            data-aos="zoom-in"
-            className='flex flex-col items-center text-lg lg:text-xl tracking-wide font-medium text-light-grey hover:text-yellow mb-10 md:mb-12'>
+            data-aos="fade-up"
+            className='flex flex-col items-center text-base lg:text-lg tracking-wide font-medium text-light-grey hover:text-yellow mb-10 md:mb-12'>
             <BsChevronDoubleUp className='text-5xl' />
             {language.projects.button2[idiom]} 
-          </h3>
+          </div>
         :
-          <h3
+          <div
             onClick={() => setShowMore(!showMore)}
-            data-aos="zoom-in"
-            className='flex flex-col items-center text-lg lg:text-xl tracking-wide font-medium text-light-grey hover:text-yellow mb-10 md:mb-12'>
+            data-aos="fade-up"
+            className='flex flex-col items-center text-base lg:text-lg tracking-wide font-medium text-light-grey hover:text-yellow mb-10 md:mb-12'>
             <BsChevronDoubleDown className='text-5xl' />
             {language.projects.button1[idiom]} 
-          </h3>
+          </div>
         }
       </div>
       <div className='bg-brush-blue-t min-w-full min-h-[80px] mt-14'/>

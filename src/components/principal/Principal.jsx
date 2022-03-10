@@ -5,6 +5,7 @@ import Lottie from 'react-lottie';
 import animationData from '../../services/animationData.json'
 import { BsChevronDoubleDown } from "react-icons/bs";
 import { BiMouse } from "react-icons/bi";
+import './principal.css';
  
 export default function Principal() {
   const {
@@ -48,7 +49,9 @@ export default function Principal() {
           </div>
         </section>
       </section>
-      <div className='flex flex-col items-center slide-bottom bottom-0 absolute sm:hidden lg:flex mb-14'>
+      <div
+        className='flex flex-col items-center w-20 h-20 fade-in-top bottom-0 absolute lg:flex mb-14'
+      >
           <BiMouse className='text-2xl lg:text-3xl text-light-grey font-medium' />
           <BsChevronDoubleDown className='text-4xl lg:text-5xl text-light-grey font-medium' />
       </div>
